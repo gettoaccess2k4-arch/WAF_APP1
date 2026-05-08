@@ -2,5 +2,5 @@ node_modules/
 dist/
 .env
 *.env.local
-admin-app/backend/uploads/*
-!admin-app/backend/uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep

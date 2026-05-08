@@ -1,0 +1,37 @@
+/* ── TechMobile Design System (TGDĐ-inspired) ──────────────── */
+:root {
+  --red:      #D0021B;
+  --red-dark: #a80016;
+  --yellow:   #FFB700;
+  --bg:       #f0f0f0;
+  --white:    #ffffff;
+  --text:     #212121;
+  --muted:    #757575;
+  --border:   #e0e0e0;
+  --shadow:   0 2px 8px rgba(0,0,0,.10);
+  --radius:   6px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body   { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; }
+a      { color: var(--red); text-decoration: none; }
+a:hover{ text-decoration: underline; }
+button { cursor: pointer; font-family: inherit; }
+img    { max-width: 100%; display: block; }
+
+.container { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+
+/* Badges */
+.badge-sale   { background: var(--red);    color:#fff; font-size:11px; font-weight:700; padding:2px 6px; border-radius:4px; }
+.badge-new    { background: #00897b;       color:#fff; font-size:11px; font-weight:700; padding:2px 6px; border-radius:4px; }
+.badge-hot    { background: var(--yellow); color:#222; font-size:11px; font-weight:700; padding:2px 6px; border-radius:4px; }
+
+/* Buttons */
+.btn-primary { background:var(--red); color:#fff; border:none; border-radius:var(--radius); padding:10px 20px; font-size:14px; font-weight:600; transition:.15s; }
+.btn-primary:hover { background:var(--red-dark); }
+.btn-outline { background:transparent; color:var(--red); border:1.5px solid var(--red); border-radius:var(--radius); padding:9px 20px; font-size:14px; font-weight:600; }
+.btn-outline:hover { background:var(--red); color:#fff; }
+
+/* Price display */
+.price-current  { color:var(--red); font-weight:700; font-size:1.1em; }
+.price-original { color:var(--muted); text-decoration:line-through; font-size:.9em; margin-left:6px; }
+.price-discount { color:var(--red); font-size:.85em; font-weight:600; }

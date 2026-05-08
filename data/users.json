@@ -1,0 +1,29 @@
+[
+  {
+    "id": "u001",
+    "username": "alice",
+    "email": "alice@shop.waflab.local",
+    "password": "$2b$10$xK9z1QwE3rVmNpL8sYdAuOJHk7TfCgBiW5nMaP2oR6eUvDlXqZy4S",
+    "role": "user",
+    "createdAt": "2024-01-10T08:00:00Z",
+    "refreshToken": null
+  },
+  {
+    "id": "u002",
+    "username": "bob",
+    "email": "bob@shop.waflab.local",
+    "password": "$2b$10$xK9z1QwE3rVmNpL8sYdAuOJHk7TfCgBiW5nMaP2oR6eUvDlXqZy4S",
+    "role": "user",
+    "createdAt": "2024-01-12T09:30:00Z",
+    "refreshToken": null
+  },
+  {
+    "id": "a001",
+    "username": "admin",
+    "email": "admin@admin.waflab.local",
+    "password": "$2b$10$xK9z1QwE3rVmNpL8sYdAuOJHk7TfCgBiW5nMaP2oR6eUvDlXqZy4S",
+    "role": "admin",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "refreshToken": null
+  }
+]

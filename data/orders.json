@@ -1,0 +1,37 @@
+[
+  {
+    "id": "o001",
+    "userId": "u001",
+    "items": [
+      { "productId": "p001", "name": "Wireless Noise-Cancelling Headphones", "price": 129.99, "qty": 1 },
+      { "productId": "p003", "name": "USB-C Hub 7-in-1", "price": 45.99, "qty": 2 }
+    ],
+    "total": 221.97,
+    "status": "delivered",
+    "shippingAddress": {
+      "fullName": "Alice Nguyen",
+      "address": "12 Le Loi St",
+      "city": "Ho Chi Minh City",
+      "phone": "0901234567"
+    },
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-17T08:00:00Z"
+  },
+  {
+    "id": "o002",
+    "userId": "u002",
+    "items": [
+      { "productId": "p002", "name": "Mechanical Keyboard TKL", "price": 89.99, "qty": 1 }
+    ],
+    "total": 89.99,
+    "status": "processing",
+    "shippingAddress": {
+      "fullName": "Bob Tran",
+      "address": "45 Nguyen Hue Blvd",
+      "city": "Hanoi",
+      "phone": "0912345678"
+    },
+    "createdAt": "2024-01-20T14:00:00Z",
+    "updatedAt": "2024-01-20T14:00:00Z"
+  }
+]

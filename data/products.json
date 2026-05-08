@@ -1,0 +1,57 @@
+[
+  {
+    "id": "p001",
+    "name": "Wireless Noise-Cancelling Headphones",
+    "description": "Premium over-ear headphones with 30h battery life and active noise cancellation.",
+    "price": 129.99,
+    "stock": 50,
+    "category": "Electronics",
+    "image": "/images/headphones.jpg",
+    "createdAt": "2024-01-05T10:00:00Z",
+    "updatedAt": "2024-01-05T10:00:00Z"
+  },
+  {
+    "id": "p002",
+    "name": "Mechanical Keyboard TKL",
+    "description": "Tenkeyless mechanical keyboard with Cherry MX Red switches, RGB backlight.",
+    "price": 89.99,
+    "stock": 30,
+    "category": "Electronics",
+    "image": "/images/keyboard.jpg",
+    "createdAt": "2024-01-06T11:00:00Z",
+    "updatedAt": "2024-01-06T11:00:00Z"
+  },
+  {
+    "id": "p003",
+    "name": "USB-C Hub 7-in-1",
+    "description": "Multiport adapter with HDMI 4K, 3x USB-A, SD card reader, and 100W PD charging.",
+    "price": 45.99,
+    "stock": 100,
+    "category": "Accessories",
+    "image": "/images/hub.jpg",
+    "createdAt": "2024-01-07T12:00:00Z",
+    "updatedAt": "2024-01-07T12:00:00Z"
+  },
+  {
+    "id": "p004",
+    "name": "27\" 4K Monitor IPS",
+    "description": "Ultra-sharp 4K IPS display, 144Hz refresh rate, HDR400 support.",
+    "price": 399.99,
+    "stock": 15,
+    "category": "Electronics",
+    "image": "/images/monitor.jpg",
+    "createdAt": "2024-01-08T09:00:00Z",
+    "updatedAt": "2024-01-08T09:00:00Z"
+  },
+  {
+    "id": "p005",
+    "name": "Ergonomic Office Chair",
+    "description": "Lumbar-support mesh chair with adjustable armrests and seat height.",
+    "price": 249.99,
+    "stock": 20,
+    "category": "Furniture",
+    "image": "/images/chair.jpg",
+    "createdAt": "2024-01-09T14:00:00Z",
+    "updatedAt": "2024-01-09T14:00:00Z"
+  }
+]
